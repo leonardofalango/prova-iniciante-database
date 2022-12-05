@@ -62,7 +62,6 @@ INSERT INTO DisciplinaCurso (id_curso, id_disciplina) VALUES
     (3,9);
 GO
 
-
 -- 4 turmas com 5 alunos
 INSERT INTO Turmas (id_aluno, id_professor, id_disciplina_curso, nota1, nota2, nota3, nota4) VALUES -- 1 turma só possui 1 professor
     (1, 1, 1, 98, 90, 95, NULL),
@@ -92,87 +91,85 @@ GO
 
 INSERT INTO Pagamentos (id_aluno, boleto, situacao) VALUES
     (1, '2022-05-10', 'pago'),
-    (1, '2022-12-10', 'pendente'),
+    (1, '2022-06-10', 'pendente'),
     (2, '2022-05-10', 'pago'),
-    (2, '2022-12-10', 'pendente'),
+    (2, '2022-06-10', 'pendente'),
     (3, '2022-05-10', 'pago'),
-    (3, '2022-12-10', 'pendente'),
+    (3, '2022-06-10', 'pendente'),
     (4, '2022-05-10', 'pago'),
-    (4, '2022-12-10', 'pendente'),
+    (4, '2022-06-10', 'pendente'),
     (5, '2022-05-10', 'pago'),
-    (5, '2022-12-10', 'pendente');
+    (5, '2022-06-10', 'pendente');
 
 INSERT INTO Pagamentos (id_aluno, boleto, situacao) VALUES
     (6, '2022-04-10','pago'),
     (6, '2022-05-10','pago'),
-    (6, '2022-12-10','pendente'),
+    (6, '2022-06-10','pendente'),
     
     (7, '2022-04-10','pago'),
     (7, '2022-05-10','pago'),
-    (7, '2022-12-10','pendente'),
+    (7, '2022-06-10','pendente'),
     
     (8, '2022-04-10','pago'),
     (8, '2022-05-10','pago'),
-    (8, '2022-12-10','pendente'),
+    (8, '2022-06-10','pendente'),
     
     (9, '2022-04-10','pago'),
     (9, '2022-05-10','pago'),
-    (9, '2022-12-10','pendente'),
+    (9, '2022-06-10','pendente'),
     
     (10, '2022-04-10','pago'),
     (10, '2022-05-10','pago'),
-    (10, '2022-12-10','pendente'),
+    (10, '2022-06-10','pendente'),
     
     (11, '2022-04-10','pago'),
     (11, '2022-05-10','pago'),
-    (11, '2022-12-10','pendente'),
+    (11, '2022-06-10','pendente'),
     
     (10, '2022-04-10','pago'),
     (10, '2022-05-10','pago'),
-    (10, '2022-12-10','pendente'),
+    (10, '2022-06-10','pendente'),
     
     (13, '2022-04-10','pago'),
     (13, '2022-05-10','pago'),
-    (13, '2022-12-10','pendente'),
+    (13, '2022-06-10','pendente'),
     
     (14, '2022-04-10','pago'),
     (14, '2022-05-10','pago'),
-    (14, '2022-12-10','pendente'),
+    (14, '2022-06-10','pendente'),
     
     (15, '2022-04-10','pago'),
     (15, '2022-05-10','pago'),
-    (15, '2022-12-10','pendente');
+    (15, '2022-06-10','pendente');
 
 INSERT Pagamentos (id_aluno, boleto, situacao) VALUES 
     (16, '2022-03-10','pago'),
     (16, '2022-04-10','pago'),
     (16, '2022-05-10','pago'),
-    (16, '2022-12-10','pendente'),
+    (16, '2022-06-10','pendente'),
 
     (17, '2022-03-10','pago'),
     (17, '2022-04-10','pago'),
     (17, '2022-05-10','pago'),
-    (17, '2022-12-10','pendente'),
+    (17, '2022-06-10','pendente'),
 
     (18, '2022-03-10','pago'),
     (18, '2022-04-10','pago'),
     (18, '2022-05-10','pago'),
-    (18, '2022-12-10','pendente');
+    (18, '2022-06-10','pendente');
 
 INSERT Pagamentos (id_aluno, boleto, situacao) VALUES 
     (19, '2022-01-10', 'pendente'),
     (19, '2022-03-10','pago'),
     (19, '2022-04-10','pago'),
     (19, '2022-05-10','pago'),
-    (19, '2022-12-10','pendente'),
+    (19, '2022-06-10','pendente'),
 
     (20, '2022-01-10', 'pendente'),
     (20, '2022-03-10','pago'),
     (20, '2022-04-10','pago'),
     (20, '2022-05-10','pago'),
-    (20, '2022-12-10','pendente');
+    (20, '2022-06-10','pendente');
 GO
 
 
-
--- meu deus eu te odeio
