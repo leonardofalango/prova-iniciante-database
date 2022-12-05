@@ -74,11 +74,3 @@ CREATE TABLE Pagamentos (
 GO
 
 /* Fim da criação das tabelas */
-SELECT * FROM Alunos
-SELECT * FROM Professores
-SELECT * FROM Cursos
-SELECT * FROM Disciplinas
-SELECT * FROM Turmas
-SELECT * FROM Pagamentos
-
-SELECT * FROM DisciplinaCurso
